@@ -47,11 +47,14 @@
 
     {% comment %} Header group sections {% endcomment %}
     {% sections 'header-group' %}
+
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
       {{ content_for_layout }}
     </main>
 
     {% comment %} Footer group sections {% endcomment %}
+    {%  sections 'footer-group' %}
+
 
     <script>
       window.shopUrl = '{{ request.origin }}';
@@ -75,5 +78,8 @@
         unavailable_with_option: `{{ 'products.product.value_unavailable' | t: option_value: '[value]' }}`,
       };
     </script>
+
+    <!-- Flowbite JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js" defer></script>
   </body>
 </html>
