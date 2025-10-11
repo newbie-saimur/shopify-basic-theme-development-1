@@ -1,11 +1,58 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
-    "sections": {
-        "image_banner": {
-            "type": "image-banner",
-            "settings": {}
+  "sections": {
+    "17601684953e7bebc1": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_6abdd76_ciJcLt": {
+          "type": "ai_gen_block_6abdd76",
+          "settings": {
+            "blog": "",
+            "featured_article": "",
+            "featured_category": "Featured",
+            "articles_to_show": 6,
+            "show_sidebar": true,
+            "show_excerpt": true,
+            "show_date": true,
+            "show_category": true,
+            "read_more_text": "Read more",
+            "section_padding": 60,
+            "content_spacing": 32,
+            "image_border_radius": 8,
+            "card_border_radius": 12,
+            "hero_title_size": 36,
+            "article_title_size": 20,
+            "background_color": "#ffffff",
+            "card_background_color": "#ffffff",
+            "card_border_color": "#e5e5e5",
+            "title_color": "#121212",
+            "text_color": "#666666",
+            "meta_text_color": "#999999",
+            "accent_color": "#334FB4"
+          },
+          "blocks": {}
         }
+      },
+      "block_order": [
+        "ai_gen_block_6abdd76_ciJcLt"
+      ],
+      "settings": {}
     },
-    "order":[
-        "image_banner"
-    ]
+    "image_banner": {
+      "type": "image-banner",
+      "settings": {}
+    }
+  },
+  "order": [
+    "17601684953e7bebc1",
+    "image_banner"
+  ]
 }
