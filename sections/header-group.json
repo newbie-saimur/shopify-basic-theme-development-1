@@ -8,20 +8,24 @@
  * ------------------------------------------------------------
  */
 {
-    "name": "Header Group",
-    "type": "header",
-    "sections": {
-        "announcement-bar" : {
-            "type": "announcement-bar",
-            "settings": {}
-        },
-        "header" : {
-            "type": "header",
-            "settings": {}
-        }
+  "name": "Header Group",
+  "type": "header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "settings": {
+        "announcement_text": "25% OFF for US based delivery!"
+      }
     },
-    "order": [
-        "announcement-bar",
-        "header"
-    ]
+    "header": {
+      "type": "header",
+      "settings": {
+        "header_menu": "main-menu"
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
 }
