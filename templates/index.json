@@ -18,7 +18,7 @@
       "name": "Blog Block",
       "settings": {
         "blog": "new-blog",
-        "featured_article": "",
+        "featured_article": "news/hello-world",
         "featured_category": "Featured",
         "articles_to_show": 6,
         "show_sidebar": true,
@@ -38,7 +38,7 @@
         "title_color": "#121212",
         "text_color": "#666666",
         "meta_text_color": "#999999",
-        "accent_color": "#334FB4"
+        "accent_color": "#334fb4"
       }
     }
   },
